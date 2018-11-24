@@ -1,0 +1,17 @@
+for x in range(1, 16480):
+    rbu.append(worksheet.cell(x, 17).value)
+    city.append(worksheet.cell(x, 5).value)
+    sites.append(worksheet.cell(x, 0).value)
+
+for y in range(0, 16479):
+    temp = sites[y]
+    sites[y] = temp[-6:]
+
+############################################################################
+
+def Impact(btn):
+    x = clipboard.paste()
+    x = str(x)
+    x = x.replace("\r\n", ",").strip()
+    x = "*"+ x
+    clipboard.copy(x)

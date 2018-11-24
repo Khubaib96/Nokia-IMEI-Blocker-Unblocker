@@ -1,0 +1,41 @@
+<spml:batchRequest
+execution="synchronous"
+processing="sequential"
+onError="resume"
+xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0"
+xmlns:nsr="urn:siemens:names:prov:gw:EIR_NSR:1:0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<version>EIR_NSR_v30</version>
+<request xsi:type="spml:AddRequest">
+<version>EIR_NSR_v30</version>
+<object xsi:type="nsr:Device">
+<identifier>354412080527764</identifier>
+<colour>
+<colour>black</colour>
+<reason>1</reason>
+<organization>ORG_1</organization>
+<deviceManufacturer>Nokia</deviceManufacturer>
+<deviceName>mobile</deviceName>
+<processedDate>2017-12-12</processedDate>
+<processedTime>12:01</processedTime>
+<duplicates>unique</duplicates>
+</colour>
+</object>
+</request>
+<request xsi:type="spml:AddRequest">
+<version>EIR_NSR_v30</version>
+<object xsi:type="nsr:Device">
+<identifier>864542036094825</identifier>
+<colour>
+<colour>black</colour>
+<reason>1</reason>
+<organization>ORG_1</organization>
+<deviceManufacturer>Nokia</deviceManufacturer>
+<deviceName>mobile</deviceName>
+<processedDate>2017-12-12</processedDate>
+<processedTime>12:01</processedTime>
+<duplicates>unique</duplicates>
+</colour>
+</object>
+</request>
+</spml:batchRequest>

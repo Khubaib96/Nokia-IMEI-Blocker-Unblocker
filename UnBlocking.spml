@@ -1,0 +1,19 @@
+<spml:batchRequest
+execution="synchronous"
+processing="sequential"
+onError="resume"
+xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0"
+xmlns:nsr="urn:siemens:names:prov:gw:EIR_NSR:1:0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<version>EIR_NSR_v30</version>
+<request xsi:type="spml:DeleteRequest">
+<version>EIR_NSR_v30</version>
+<objectclass>Device</objectclass>
+<identifier>354412080527764</identifier>
+</request>
+<request xsi:type="spml:DeleteRequest">
+<version>EIR_NSR_v30</version>
+<objectclass>Device</objectclass>
+<identifier>864542036094825</identifier>
+</request>
+</spml:batchRequest>
